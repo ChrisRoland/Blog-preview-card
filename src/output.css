@@ -601,8 +601,8 @@ video {
   height: 100svh;
 }
 
-.w-\[327px\] {
-  width: 327px;
+.w-\[350px\] {
+  width: 350px;
 }
 
 .w-fit {
@@ -708,16 +708,10 @@ video {
   color: rgb(107 107 107 / var(--tw-text-opacity));
 }
 
-@font-face {
-  font-family: Font;
-
-  src: url(/assets/fonts/Figtree-VariableFont_wght.ttf);
-}
-
 * {
   padding: 0;
   margin: 0;
-  font-family: Font, sans-serif;
+  font-family: "Figtree";
 }
 
 .attribution {
@@ -745,5 +739,17 @@ video {
 @media (min-width: 640px) {
   .sm\:text-\[1\.3rem\] {
     font-size: 1.3rem;
+  }
+
+  .sm\:text-\[1\.4rem\] {
+    font-size: 1.4rem;
+  }
+
+  .sm\:text-\[1\.35rem\] {
+    font-size: 1.35rem;
+  }
+
+  .sm\:text-\[1\.rem\] {
+    color: 1.rem;
   }
 }
